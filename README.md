@@ -61,11 +61,11 @@ def forall(s: FunSet, p: Int => Boolean): Boolean =
 def exists(f: FunSet, p: Int => Boolean): Boolean
 ```
 3. Finally, using forall or exists, write a function map which transforms a given set into another one by applying to each of its elements the given function. map has the following signature:
-``scala
+```scala
 def map(s: FunSet, f: Int => Int): FunSet
 ```
 
-* Extra Hints
+Extra Hints:
 
     Be attentive in the lectures on how to write anonymous functions in Scala.
 
